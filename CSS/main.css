@@ -3,7 +3,7 @@
     /* border: 2px solid black; */
     text-align: center;
     justify-content: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     flex-shrink: inherit;
     /* justify-content: ; */
 }
