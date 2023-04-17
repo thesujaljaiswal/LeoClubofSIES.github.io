@@ -125,6 +125,46 @@ a{
     flex-direction: row;
     color: black;
 }
+#achievements {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-shrink: inherit;
+  background-color: #e3e3e3;
+  padding: 50px;
+}
+
+#achievements h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.achievement-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.achievement-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.achievement-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.achievement-item p {
+  text-align: center;
+  max-width: 400px;
+  font-size: 18px;
+}
+
     </style>
 </head>
 
@@ -215,14 +255,26 @@ a{
         <div class="flexitem"><a href="#"><img id="..." src="images/oreintation.jpg" alt="Event"></a></div>
         <div class="flexitem"><a href="#"><img id="..." src="images/leo club logo.png" alt="Event"></a></div>
     </div>
+
     
-    <!-- Acheivements -->
-    <div class="achievement-container">
-      <div class="block"><img class="ach-img" src="images/1378582.png"><span></span></div>
-      <div class="block"><img class="ach-img" src="images/1378582.png"><span></span></div>
-      <div class="block"><img class="ach-img" src="images/1378582.png"><span></span></div>
-      <div class="block"><img class="ach-img" src="images/1378582.png"><span></span></div>
-    </div>
+    <section id="achievements">
+      <div class="achievement-item">
+        <img src="images/1378582.png" alt="Achievement 1" width="10%">
+        <h3>Achievement 1</h3>
+        <p>Description of Achievement 1</p>
+      </div>
+      <div class="achievement-item">
+        <img src="images/1378582.png" alt="Achievement 1" width="10%">
+        <h3>Achievement 2</h3>
+        <p>Description of Achievement 2</p>
+      </div>
+      <div class="achievement-item">
+        <img src="images/1378582.png" alt="Achievement 1" width="10%">
+        <h3>Achievement 3</h3>
+        <p>Description of Achievement 3</p>
+      </div>
+    </section>
+    
 
 
 
