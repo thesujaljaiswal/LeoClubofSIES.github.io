@@ -175,55 +175,93 @@ a{
   padding: 20px;
 }
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-details {
+  width: 50%;
+}
+
+.company-details h3 {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
     </style>
 </head>
 
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" style="background-color: #75a7ff;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/leo club logo.png" alt="logo" width="35"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://leoclubofsies.netlify.app/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="team.html">Our team</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Contact Us
-                      </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="tel:9987653073"><img id="callus" src="images/png-clipart-blue-call-icon-dialer-android-google-play-telephone-phone-blue-text.png" alt="call us" width="50"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="mailto:leoclubofsies@gmail.com"><img id="whatsapp" src="images/Circle-icons-mail.svg.png" alt="whatsapp" width="50"></a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Follow Us On
-                      </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="https://wa.me/9987653073"><img id="whatsapp" src="images/whatsapp.png" alt="whatsapp" width="50"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://www.instagram.com/leoclubofsies/"><img id="instagram" src="images/instagram.png" alt="Instagram" width="50"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://www.youtube.com/@leoclubofsies5049"><img id="youtube" src="images/Youtube_logo.png" alt="Youtube" width="50"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://www.linkedin.com/company/leo-club-of-sies/about/"><img id="linkedin" src="images/linkedin.png" alt="linkedin" width="50"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="https://www.facebook.com/people/leoclubofsies/100086343496211/?fref=nf&paipv=0&eav=AfajuriTHaYDgZvUX2ldTY0Hoc-GZGvyIqHbYxHDndXNSg6F71zqI2hL1mU8_TUtcdo&_rdr"><img id="facebook" src="images/facebook.png" alt="facebook" width="50"></a></li>
-                    </ul>
-                    </li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/leo club logo.png" alt="logo" width="35"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://leoclubofsies.netlify.app/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="team.html">Our team</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact Us
+                  </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tel:9987653073"><img id="callus" src="images/png-clipart-blue-call-icon-dialer-android-google-play-telephone-phone-blue-text.png" alt="call us" width="50"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="mailto:leoclubofsies@gmail.com"><img id="whatsapp" src="images/Circle-icons-mail.svg.png" alt="whatsapp" width="50"></a></li>
                 </ul>
-            </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Follow Us On
+                  </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://wa.me/9987653073"><img id="whatsapp" src="images/whatsapp.png" alt="whatsapp" width="50"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/leoclubofsies/"><img id="instagram" src="images/instagram.png" alt="Instagram" width="50"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/@leoclubofsies5049"><img id="youtube" src="images/Youtube_logo.png" alt="Youtube" width="50"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/company/leo-club-of-sies/about/"><img id="linkedin" src="images/linkedin.png" alt="linkedin" width="50"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/people/leoclubofsies/100086343496211/?fref=nf&paipv=0&eav=AfajuriTHaYDgZvUX2ldTY0Hoc-GZGvyIqHbYxHDndXNSg6F71zqI2hL1mU8_TUtcdo&_rdr"><img id="facebook" src="images/facebook.png" alt="facebook" width="50"></a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!-- carousel -->
@@ -323,8 +361,8 @@ a{
       </div>
       <div class="achievement-item">
         <img src="images/members.png" alt="Achievement 1" width="10%">
-        <h3>Achievement 2</h3>
-        <p>Description of Achievement 2</p>
+        <h3>Members</h3>
+        <p>0000</p>
       </div>
       <div class="achievement-item">
         <img src="images/1378582.png" alt="Achievement 1" width="10%">
@@ -332,6 +370,23 @@ a{
         <p>Description of Achievement 3</p>
       </div>
     </section>
+
+    <footer>
+      <div id="container">
+        <div class="company-details">
+          <p> Plot No.71, 72, TV Chidambaran Marg</p>
+          <p>Mumbai, 400 022</p>
+          <p>Phone: 9987653073</p>
+          <p>Email: leoclubofsies@gmail.com</p>
+          <h3>Copyright © 2022 - 2023 LEO CLUB OF SIES®. All rights reserved.</h3>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>    
     
 
 
