@@ -31,38 +31,64 @@
 			margin-bottom: 10px;
 		}
 		.description {
-			font-size: 16px;
+			font-size: 24px;
 			line-height: 1.5;
 		}
+    a{
+      text-decoration: none;
+      color: black;
+    }
         @media (max-width: 480px) {
         .company-details p{
         font-size: 10%;
         }
         }
+        .hNjWRC {
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    background: rgb(38, 38, 38);
+    font-weight: 300;
+  }
 
-        footer {
-        background-color: #333;
-        color: #fff;
-        padding: 50px 0;
-        }
-
-        #container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        }
-
-        .company-details {
-        width: 50%;
-        }
-
-        .company-details h3 {
-        margin-bottom: 20px;
-        }
-        .company-details p{
-        font-size: 100%;
-        }
+  .hNjWRC>p {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: white;
+  }
+        .footer-container{
+  background-color: rgb(137, 137, 137);
+  padding-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-shrink: inherit;
+}
+.footer-address{
+  text-align: left;
+  padding-left: 10px;
+}
+.footer-contactus{
+  text-align: left;
+}
+@media (max-width: 600px) {
+.footer-socialmedia{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-address{
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0rem;
+}
+}
 	</style>
 </head>
 <body>
@@ -134,17 +160,42 @@
             Overall, "Christmas and Chill" was a huge success, and everyone had a great time. The event was a great way to bring all Leos together and celebrate the season of Christmas together. The organizers had done a great job in planning and executing the event, and it was a testament to their hard work and dedication. The participants left the event with a sense of camaraderie and goodwill, and it was a great way to kickstart the holiday season.</div>
 	</div>
 
-    <footer>
-        <div id="container">
-          <div class="company-details">
-            <p> Plot No.71, 72, TV Chidambaran Marg</p>
-            <p>Mumbai, 400 022</p>
-            <p>Phone: 9987653073</p>
-            <p>Email: leoclubofsies@gmail.com</p>
-            <p><b>Copyright © 2022 - 2023 LEO CLUB OF SIES®. All rights reserved.</b></p>
-          </div>
-        </div>
-      </footer>
+<!-- footer -->
+<div class="footer-container">
+  <div class="footer-address">
+    <p id="add"><b>Address</b></p>
+    <p id="add1">Plot No.71, 72, TV Chidambaran Marg,</p>
+    <p id="add1">Mumbai, 400 022</p>
+  </div>
+  <div class="footer-contactus">
+    <p><b>Contact</b></p>
+    <a href="tel:7045717701">
+      <p id="con1">Phone: 9987653073</p>
+    </a>
+    <a href="mailto:leoclubofsies@gmail.com">
+      <p id="con2">Email: leoclubofsies@gmail.com</p>
+    </a>
+  </div>
+  <div class="footer-socialmedia">
+    <div>
+      <p id="soc"><b>Social</b></p>
+    </div>
+    <div>
+      <a href="https://wa.me/917045717701" target="_blank"><img class="social-icons" id="whatsapp" src="images/whatsapp.png" alt="whatsapp" width="50"></a>
+      <a href="https://www.instagram.com/leoclubofsies/" target="_blank"><img class="social-icons" id="instagram" src="images/instagram.png" alt="Instagram" width="50"></a>
+      <a href="https://www.youtube.com/@leoclubofsies5049" target="_blank"><img class="social-icons" id="youtube" src="images/Youtube_logo.png" alt="Youtube" width="50"></a>
+      <a href="https://www.linkedin.com/company/leo-club-of-sies/about/" target="_blank"><img class="social-icons" id="linkedin" src="images/linkedin.png" alt="linkedin" width="50"></a>
+      <a href="https://www.facebook.com/people/leoclubofsies/100086343496211/?fref=nf&paipv=0&eav=AfajuriTHaYDgZvUX2ldTY0Hoc-GZGvyIqHbYxHDndXNSg6F71zqI2hL1mU8_TUtcdo&_rdr" target="_blank"><img class="social-icons" id="facebook" src="images/facebook.png" alt="facebook" width="50"></a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- copyright section -->
+<div class="sc-gKPRtg hNjWRC">
+  <p>Copyright © 2022-23 LEO CLUB OF SIES. All rights reserved.</p>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
