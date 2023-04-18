@@ -30,6 +30,7 @@
   }
   a {
     text-decoration: none;
+    color: black;
   }
 
   .social-media-container {
@@ -113,7 +114,7 @@
   .hNjWRC {
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
     background: rgb(38, 38, 38);
     font-weight: 300;
   }
@@ -282,4 +283,33 @@
   margin: auto;
   width: 60%;
   text-align: center;
+}
+.footer-container{
+  background-color: rgb(137, 137, 137);
+  padding-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-shrink: inherit;
+}
+.footer-address{
+  text-align: left;
+  padding-left: 10px;
+}
+.footer-contactus{
+  text-align: left;
+}
+@media (max-width: 600px) {
+.footer-socialmedia{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-address{
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0rem;
+}
 }
