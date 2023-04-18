@@ -237,8 +237,8 @@
       width:60%;
       transition:right 1s ease;
       justify-content: space-around;
-      background-color: rgb(242, 242, 242);
-      opacity: 100%;
+      background-color: rgb(114, 114, 114);
+      opacity: 80%;
       color: black;
     }
     .nav-item{
