@@ -103,7 +103,7 @@
     font-size: 18px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     #achievements {
       display: flex;
       flex-direction: column;
@@ -159,7 +159,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    width:40%;
+    width:30%;
     background-color:transparent;
     justify-content: space-between;
   }
@@ -232,11 +232,19 @@
   text-align: left;
 }
 @media (max-width: 600px) {
+  .footer-container{
+    flex-direction: column;
+  }
 .footer-socialmedia{
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.footer-contactus{
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0rem;
 }
 .footer-address{
   text-align: left;
