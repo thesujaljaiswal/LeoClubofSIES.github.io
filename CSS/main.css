@@ -166,7 +166,7 @@
       margin: 0;
       padding: 0;
       display: flex;
-      width:40%;
+      width: 68%;
       background-color:transparent;
       justify-content: space-between;
     }
@@ -262,5 +262,10 @@
   text-align: left;
   padding-left: 10px;
   margin-bottom: 0rem;
+}
+.description{
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 }
