@@ -65,7 +65,7 @@
     justify-content: center;
     color: white;
   }
-        .footer-container{
+  .footer-container{
   background-color: rgb(137, 137, 137);
   padding-top: 30px;
   display: flex;
@@ -82,11 +82,19 @@
   text-align: left;
 }
 @media (max-width: 600px) {
+  .footer-container{
+    flex-direction: column;
+  }
 .footer-socialmedia{
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.footer-contactus{
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0rem;
 }
 .footer-address{
   text-align: left;
