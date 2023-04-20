@@ -204,6 +204,7 @@
     /* justify-content: space-evenly; */
     flex-shrink: inherit;
     margin-top: 10px;
+    z-index: 999;
   }
   .logo-flexitem{
     margin-left: 5px;
