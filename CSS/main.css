@@ -190,6 +190,20 @@
     color: black;
   }
 
+  .logo-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-shrink: inherit;
+    margin-top: 10px;
+    z-index: 999;
+  }
+  .logo-flexitem{
+    margin-left: 5px;
+    width: 50px;
+  }
+
   @media (max-width: 600px) {
     nav{
       padding: 10px;
@@ -208,6 +222,7 @@
   }
   .logo-flexitem{
     margin-left: 5px;
+    width: 50px;
   }
 
   .center{
